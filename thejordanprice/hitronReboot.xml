@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/thejordanprice/unRaid-templates/master/thejordanprice/hitronReboot.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category></Category>
+  <Name>hitronReboot</Name>
+  <Description>
+    A cronjob container for reboot a modem on a regular schedule at 3:45am.
+  </Description>
+  <Overview>
+    You will need to edit /etc/hitronReboot/config/password.txt until I add the form to set it via the GUI.
+  </Overview>
+  <Support>#</Support>
+  <Registry>https://hub.docker.com/r/thejordanprice/hitronreboot</Registry>
+  <GitHub>https://github.com/thejordanprice/docker-hitronReboot</GitHub>
+  <Repository>thejordanprice/docker-hitronReboot</Repository>
+  <Project>https://github.com/thejordanprice/hitronReboot</Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data/>
+  <Icon>https://i.imgur.com/7wePdz1.png</Icon>
+</Containers>
