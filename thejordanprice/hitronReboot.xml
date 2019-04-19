@@ -9,7 +9,7 @@
   <Support>#</Support>
   <Registry>https://hub.docker.com/r/thejordanprice/hitronreboot</Registry>
   <GitHub>https://github.com/thejordanprice/docker-hitronReboot</GitHub>
-  <Repository>thejordanprice/docker-hitronReboot</Repository>
+  <Repository>thejordanprice/docker-hitronreboot</Repository>
   <Project>https://github.com/thejordanprice/hitronReboot</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
