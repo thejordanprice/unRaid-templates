@@ -25,5 +25,6 @@
   </Networking>
   <Environment/>
   <Data/>
+  <WebUI>http://[IP]:[PORT:9001]/</WebUI>
   <Icon>https://i.imgur.com/fQm13iE.png</Icon>
 </Containers>
