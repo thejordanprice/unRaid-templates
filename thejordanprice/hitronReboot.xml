@@ -5,7 +5,7 @@
   <Category>Networking</Category>
   <Name>hitronreboot</Name>
   <Description>A cronjob container for reboot a modem on a regular schedule at 3:45am.</Description>
-  <Overview>You will need to edit /etc/hitronReboot/config/password.txt until I add the form to set it via the GUI.</Overview>
+  <Overview>I will soon add a way to change the time for reboot.</Overview>
   <Support>#</Support>
   <Registry>https://hub.docker.com/r/thejordanprice/hitronreboot</Registry>
   <GitHub>https://github.com/thejordanprice/docker-hitronReboot</GitHub>
@@ -17,7 +17,20 @@
     <Mode>host</Mode>
     <Publish/>
   </Networking>
-  <Environment/>
+  <Environment>
+    <Variable>
+      <Name>MODEM_ADDY</Name>
+      <Value>192.168.100.1</Value>
+    </Variable>
+    <Variable>
+      <Name>MODEM_USER</Name>
+      <Value>cusadmin</Value>
+    </Variable>
+    <Variable>
+      <Name>MODEM_PASS</Name>
+      <Value>changeme</Value>
+    </Variable>
+  </Environment>
   <Data/>
-  <Icon>https://i.imgur.com/7wePdz1.png</Icon>
+  <Icon>https://i.imgur.com/0VCnltU.png</Icon>
 </Containers>
