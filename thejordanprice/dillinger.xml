@@ -2,7 +2,7 @@
 <Containers>
   <TemplateURL>https://raw.githubusercontent.com/thejordanprice/unRaid-templates/master/thejordanprice/dillinger.xml</TemplateURL>
   <Beta>False</Beta>
-  <Category></Category>
+  <Category>Editor</Category>
   <Name>Dillinger</Name>
   <Description>Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS-powered HTML5 Markdown editor.</Description>
   <Overview>Type some Markdown on the left, see HTML in the right. You can also, import and save files from GitHub, Dropbox, Google Drive and One Drive, drag and drop files into Dillinger, as well as export documents as Markdown, HTML and PDF.</Overview>
