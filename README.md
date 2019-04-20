@@ -14,4 +14,4 @@ Add https://github.com/thejordanprice/unRaid-templates to the docker repositorie
 
 ##### Self-Hosted
 
-- [joemccann](https://hub.docker.com/r/joemccann/dillinger/)
+- [joemccann/dillinger](https://hub.docker.com/r/joemccann/dillinger/)
