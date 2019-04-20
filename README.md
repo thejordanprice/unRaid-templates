@@ -8,4 +8,10 @@ Add https://github.com/thejordanprice/unRaid-templates to the docker repositorie
 
 ### Included
 
+##### Network Tools
+
 - [thejordanprice/hitronreboot](https://hub.docker.com/r/thejordanprice/hitronreboot)
+
+##### Self-Hosted
+
+- [joemccann](https://hub.docker.com/r/joemccann/dillinger/)
