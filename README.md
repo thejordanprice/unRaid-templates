@@ -16,5 +16,6 @@ Add the following URL to the docker repositories field on the docker page inside
 
 ##### Self-Hosted
 
-- [joemccann/dillinger](https://hub.docker.com/r/joemccann/dillinger/)
+- [joemccann/dillinger](https://hub.docker.com/r/joemccann/dillinger)
 - [rlister/hastebin](https://hub.docker.com/r/rlister/hastebin)
+- [rocketchat/rocket.chat.preview](https://hub.docker.com/r/rocketchat/rocket.chat.preview)

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/thejordanprice/unRaid-templates/master/thejordanprice/rocketchat.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Communication</Category>
+  <Name>RocketChat</Name>
+  <Description>Teamchat solution similar to Gitter.im or Slack.</Description>
+  <Overview>Have your own Slack like online chat, built with Meteor.</Overview>
+  <Support>#</Support>
+  <Registry>https://hub.docker.com/r/rocketchat/rocket.chat.preview</Registry>
+  <GitHub>https://github.com/RocketChat/Rocket.Chat</GitHub>
+  <Repository>rocketchat/rocket.chat.preview</Repository>
+  <Project>https://github.com/RocketChat/Rocket.Chat</Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>9002</HostPort>
+        <ContainerPort>3000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment/>
+  <Data/>
+  <WebUI>http://[IP]:[PORT:9002]/</WebUI>
+  <Icon>https://i.imgur.com/cLfkpiC.png</Icon>
+</Containers>
