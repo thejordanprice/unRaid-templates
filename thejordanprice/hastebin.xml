@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/thejordanprice/unRaid-templates/master/thejordanprice/hastebin.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Editor</Category>
+  <Name>Hastebin</Name>
+  <Description>An open source pastebin written in node.js </Description>
+  <Overview>Haste is an open-source pastebin software written in node.js, which is easily installable in any network. It can be backed by either redis or filesystem, and has a very easy adapter interface for other stores. A publicly available version can be found at hastebin.com</Overview>
+  <Support>#</Support>
+  <Registry>https://hub.docker.com/r/rlister/hastebin</Registry>
+  <GitHub>https://github.com/seejohnrun/haste-server</GitHub>
+  <Repository>rlister/hastebin</Repository>
+  <Project>https://hastebin.com/about.md</Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>7777</HostPort>
+        <ContainerPort>7777</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment/>
+  <Data/>
+  <WebUI>http://[IP]:[PORT:7777]/</WebUI>
+  <Icon>https://i.imgur.com/wnKlQbX.png</Icon>
+</Containers>
