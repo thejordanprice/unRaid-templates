@@ -18,3 +18,4 @@ Add the following URL to the docker repositories field on the docker page inside
 ##### Self-Hosted
 - [joemccann/dillinger](https://hub.docker.com/r/joemccann/dillinger)
 - [rlister/hastebin](https://hub.docker.com/r/rlister/hastebin)
+- [jupyter/datascience-notebook](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook)
