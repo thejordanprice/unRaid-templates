@@ -24,9 +24,6 @@
     </Publish>
   </Networking>
   <Environment>
-  <Environment/>
-  <Data>
-  </Data>
   <WebUI>http://[IP]:[PORT:9010]/</WebUI>
   <Icon>https://i.imgur.com/5JxUjCc.png</Icon>
 </Containers>
